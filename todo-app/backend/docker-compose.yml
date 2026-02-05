@@ -1,0 +1,5 @@
+services:
+todo-app:
+ports:
+  -"3001:3001"
+  container_name:todo-app-backend

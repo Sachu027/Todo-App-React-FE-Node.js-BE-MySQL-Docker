@@ -1,0 +1,5 @@
+services:
+todo-app:
+ports:
+  -"80:80"
+  container_name:todo-app-fronted
