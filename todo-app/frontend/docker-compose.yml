@@ -1,6 +1,8 @@
-services:
-todo-app:
-build:
-ports:
-  -"80:80"
-  container_name:todo-app-frontend
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: todo-app-frontend
+    ports:
+      - "80:80"
