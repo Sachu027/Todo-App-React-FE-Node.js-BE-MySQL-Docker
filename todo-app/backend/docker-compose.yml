@@ -1,11 +1,6 @@
-version: "3.8"
-
 services:
-  backend:
-    build:
-      context: ./backend
-      dockerfile: Dockerfile
+  todo-app:
+    build: .
     container_name: todo-app-backend
     ports:
       - "3001:3001"
-    environment:

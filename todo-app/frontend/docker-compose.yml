@@ -1,8 +1,8 @@
+version: "3.8"
 
-  frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile
+services:
+  ftodo-appd:
+    build: .
     container_name: todo-app-frontend
     ports:
       - "80:80"
