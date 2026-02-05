@@ -1,5 +1,5 @@
 services:
-  todo-app:
+  backend:
     build: .
     container_name: todo-app-backend
     ports:
