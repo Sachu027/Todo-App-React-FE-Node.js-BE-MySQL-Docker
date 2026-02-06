@@ -1,6 +1,6 @@
 services:
   todo-app:
-    build: 
+    build: .
     ports:
       - "80:80"
     container_name: todo-app-frontend
